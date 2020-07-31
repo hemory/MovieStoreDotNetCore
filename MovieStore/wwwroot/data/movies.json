@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "book1",
+    "Title": "Book 1",
+    "Author": "Author 1",
+    "Image": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg",
+    "Ratings": [
+      5,
+      5
+    ]
+  },
+  {
+    "Id": "book2",
+    "Title": "Book 2",
+    "Author": "Author 2",
+    "Image": "https://user-images.githubusercontent.com/41929050/61567048-13938600-aa33-11e9-9cfd-712191013192.jpeg",
+    "Ratings": [
+      5,
+      5
+    ]
+  }
+
+
+]
