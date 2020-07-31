@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MovieStore.Services;
 
 namespace MovieStore
 {
@@ -20,6 +21,8 @@ namespace MovieStore
         {
             services.AddRazorPages();
             services.AddControllers();
+            services.AddTransient<JSonFileMoviesService>();
+
 
         }
 
